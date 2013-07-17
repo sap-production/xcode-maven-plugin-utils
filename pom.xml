@@ -9,6 +9,10 @@
     <organization>
         <name>SAP AG</name>
     </organization>
+
+    <name>xcode-maven-plugin utilities</name>
+
+    <description>Some commonly used utility classes for the xcode-maven-plugin</description>
     
     <licenses>
         <license>
