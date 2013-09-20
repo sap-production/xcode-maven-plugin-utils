@@ -5,6 +5,13 @@
   <version>1.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
+    <parent>
+        <groupId>com.sap.prd.mobile.ios.mios</groupId>
+        <artifactId>quality-check-parent</artifactId>
+        <version>1.0.0</version>
+        <relativePath />
+    </parent>
+    
     <inceptionYear>2013</inceptionYear>
     <organization>
         <name>SAP AG</name>
@@ -105,6 +112,10 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
